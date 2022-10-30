@@ -1,0 +1,16 @@
+<?xml version = "1.0"?>
+<Plugin> 
+    <Information>
+    <Name>BeorningWrath</Name>
+        <Author>Henna</Author>
+        <Version>1.1.1</Version>
+        <Image>BeorningWrath/Images/icon.tga</Image>
+<Description>
+DESCRIPTION
+¯¯¯¯¯¯¯¯¯¯¯
+This plugin displays beorning's wrath in a custom UI element.
+</Description>
+    </Information>
+    <Package>BeorningWrath.Compiler</Package>
+    <Configuration Apartment = "BeorningWrath" />
+</Plugin>
