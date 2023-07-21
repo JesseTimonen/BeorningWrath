@@ -1,6 +1,6 @@
 -- Activate Plugin --
 Plugins[pluginName].Load = function()
-	notification("Activated version " .. Plugins[pluginName]:GetVersion() .. " by Henna.");
+	notification("Activated version " .. Plugins[pluginName]:GetVersion() .. " by HennaKristal.");
 end
 
 

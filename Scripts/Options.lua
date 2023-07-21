@@ -143,16 +143,16 @@ plugin.GetOptionsPanel = function(self)
 	customizationTitle:SetBlendMode(Turbine.UI.BlendMode.AlphaBlend);
 	customizationTitle:SetBackground(Turbine.UI.Graphic("BeorningWrath/Images/optionsTitleBackground.tga"));
 
-	color_customization1 = createCustomizationOption(optionsPanel, 80, 380, "pip 1 color", "pip_1_color");
-	color_customization2 = createCustomizationOption(optionsPanel, 80, 440, "pip 2 color", "pip_2_color");
-	color_customization3 = createCustomizationOption(optionsPanel, 80, 500, "pip 3 color", "pip_3_color");
-	color_customization4 = createCustomizationOption(optionsPanel, 80, 560, "pip 4 color", "pip_4_color");
-	color_customization5 = createCustomizationOption(optionsPanel, 80, 620, "pip 5 color", "pip_5_color");
-	color_customization6 = createCustomizationOption(optionsPanel, 80, 680, "pip 6 color", "pip_6_color");
-	color_customization7 = createCustomizationOption(optionsPanel, 80, 740, "pip 7 color", "pip_7_color");
-	color_customization8 = createCustomizationOption(optionsPanel, 80, 800, "pip 8 color", "pip_8_color");
-	color_customization9 = createCustomizationOption(optionsPanel, 80, 860, "pip 9 color", "pip_9_color");
-	color_customization10 = createCustomizationOption(optionsPanel, 80, 920, "pip 10 color", "pip_10_color");
+	color_customization1 = createCustomizationOption(optionsPanel, 80, 380, "10+ wrath color", "pip_1_color");
+	color_customization2 = createCustomizationOption(optionsPanel, 80, 440, "20+ wrath color", "pip_2_color");
+	color_customization3 = createCustomizationOption(optionsPanel, 80, 500, "30+ wrath color", "pip_3_color");
+	color_customization4 = createCustomizationOption(optionsPanel, 80, 560, "40+ wrath color", "pip_4_color");
+	color_customization5 = createCustomizationOption(optionsPanel, 80, 620, "50+ wrath color", "pip_5_color");
+	color_customization6 = createCustomizationOption(optionsPanel, 80, 680, "60+ wrath color", "pip_6_color");
+	color_customization7 = createCustomizationOption(optionsPanel, 80, 740, "70+ wrath color", "pip_7_color");
+	color_customization8 = createCustomizationOption(optionsPanel, 80, 800, "80+ wrath color", "pip_8_color");
+	color_customization9 = createCustomizationOption(optionsPanel, 80, 860, "90+ wrath color", "pip_9_color");
+	color_customization10 = createCustomizationOption(optionsPanel, 80, 920, "100+ wrath color", "pip_10_color");
 
 
 	-- Troubleshooting title --

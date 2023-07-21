@@ -204,7 +204,7 @@ function WrathWindow:Constructor()
 		local _current_wrath = self.BeorningWrath:GetWrath();
         self.Wrath_label:SetText(_current_wrath)
 
-		if (_current_wrath == 100) then
+		if (_current_wrath >= 100) then
 			self.Wrath_1_child:SetBackColor(options["pip_10_color"])
 			self.Wrath_2_child:SetBackColor(options["pip_10_color"])
 			self.Wrath_3_child:SetBackColor(options["pip_10_color"])
